@@ -80,7 +80,7 @@ public class LoginPage implements ActionListener {
                     //close login page
                     frame.dispose();
                     //instance
-                    WelcomePage welcomePage = new WelcomePage();
+                    WelcomePage welcomePage = new WelcomePage(userID);
                 }
                 else {
                     messageLabel.setForeground(Color.red);
